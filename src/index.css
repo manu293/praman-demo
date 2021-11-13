@@ -1,13 +1,141 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.custom-navbar {
+    position: relative;
+    display: flex;
+    padding: 0.7rem 0;
+    background-color: #206ba3;
+    opacity: 85%;
+    align-items: center;
+}
+
+.custom-navbar-container {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.custom-navbar-icon-container {
+    width: 20%;
+    margin: 0.5rem 1rem;
+}
+
+.custom-navbar-logo-text  {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #fff;
+}
+
+.custom-navbar-content-container-ul {
+    list-style: none;
+    display: flex;
+    width: 80%;
+    padding: 0;
+    margin: 0;
+    justify-content: right;
+}
+
+.custom-navbar-content-container-li {
+    cursor: pointer;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-navbar-active {
+    border-bottom: 2px solid #fff;
+    font-weight: bolder;
+}
+
+.custom-services-dropdown-container {
+    position: fixed;
+    border: 1px solid black;
+    left: 78%;
+    z-index: 20;
+}
+
+.custom-services-dropdown-container-ul {
+    list-style: none;
+}
+
+.custom-services-dropdown-container-li {
+    padding: 0.5rem 1rem;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.custom-services-dropdown-container-li:hover {
+    background-color: #E8E8E8;
+}
+
+.whoarewe-container {
+    margin: 1rem;
+}
+
+.whoarewe-header-text {
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    color: #195582;
+}
+
+.whoarewe-content {
+    margin-left: 1rem;
+    color: black;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+}
+
+.custom-footer-container {
+    width: 100%;
+    background-color: black;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.custom-footer-section-container {
+    display: flex;
+    width: 100%;
+}
+
+.custom-footer-section {
+    width: 50%;
+}
+
+.custom-footer-section-header {
+    font-weight: bold;
+    color: #fff;
+}
+
+.custom-footer-copyrights {
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+}
+
+.custom-footer-section-ul {
+    list-style: none;
+}
+
+.custom-footer-divider {
+    color: #fff;
+}
+
+.custom-footer-section-li {
+    font-size: 15px;
+    color: #fff;
+    padding: 0.25rem 0;
 }
