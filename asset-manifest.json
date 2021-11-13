@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/praman-demo/static/css/main.d1cd0c8b.chunk.css",
+    "main.css": "/praman-demo/static/css/main.e4167255.chunk.css",
     "main.js": "/praman-demo/static/js/main.deec74ec.chunk.js",
     "main.js.map": "/praman-demo/static/js/main.deec74ec.chunk.js.map",
     "runtime-main.js": "/praman-demo/static/js/runtime-main.226f5864.js",
@@ -10,7 +10,7 @@
     "static/js/2.cd5a2aa1.chunk.js.map": "/praman-demo/static/js/2.cd5a2aa1.chunk.js.map",
     "index.html": "/praman-demo/index.html",
     "static/css/2.383c0125.chunk.css.map": "/praman-demo/static/css/2.383c0125.chunk.css.map",
-    "static/css/main.d1cd0c8b.chunk.css.map": "/praman-demo/static/css/main.d1cd0c8b.chunk.css.map",
+    "static/css/main.e4167255.chunk.css.map": "/praman-demo/static/css/main.e4167255.chunk.css.map",
     "static/js/2.cd5a2aa1.chunk.js.LICENSE.txt": "/praman-demo/static/js/2.cd5a2aa1.chunk.js.LICENSE.txt",
     "static/media/service1.e1718399.jpg": "/praman-demo/static/media/service1.e1718399.jpg",
     "static/media/service2.8b72a7ce.jpg": "/praman-demo/static/media/service2.8b72a7ce.jpg"
@@ -19,7 +19,7 @@
     "static/js/runtime-main.226f5864.js",
     "static/css/2.383c0125.chunk.css",
     "static/js/2.cd5a2aa1.chunk.js",
-    "static/css/main.d1cd0c8b.chunk.css",
+    "static/css/main.e4167255.chunk.css",
     "static/js/main.deec74ec.chunk.js"
   ]
 }
