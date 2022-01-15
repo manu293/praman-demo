@@ -7,8 +7,9 @@
 .custom-navbar {
     position: relative;
     display: flex;
-    padding: 0.7rem 0;
+    padding: 0.3rem 0;
     background-color: #206ba3;
+    background-image: url(./images/navbarBackgound.jpg);
     align-items: center;
 }
 
@@ -23,6 +24,11 @@
 .custom-navbar-icon-container {
     width: 20%;
     margin: 0.5rem 1rem;
+}
+
+.custom-navbar-icon {
+    width: 35px;
+    border-radius: 4px;
 }
 
 .custom-navbar-logo-text  {
@@ -123,6 +129,7 @@
     text-align: center;
     font-weight: bold;
     color: #fff;
+    font-size: 12px;
 }
 
 .custom-footer-section-ul {
@@ -137,4 +144,33 @@
     font-size: 15px;
     color: #fff;
     padding: 0.25rem 0;
+    display: flex;
+    align-items: center;
+}
+
+.contactUsSection {
+    list-style: none;
+    font-size: 20px;
+}
+
+.contactUsSectionContainer {
+    width: 100%;
+    display: flex;
+}
+
+.contactUsSectionSubContainer {
+    width: 50%;
+    margin: 30px 10px;
+}
+
+.contactUsLink,
+.contactUsLink:hover,
+.contactUsLink:active {
+    text-decoration: none;
+    outline: none;
+    color: inherit;
+}
+
+.contactUsAddress {
+    padding-left: 34px;
 }

@@ -1,5 +1,7 @@
 // imports
 import React from "react";
+import {BsTelephoneInboundFill} from "react-icons/bs";
+import {MdEmail, MdLocationPin} from "react-icons/md";
 
 class Footer extends React.Component {
 
@@ -12,7 +14,7 @@ class Footer extends React.Component {
 
                         <ul className="custom-footer-section-ul">
                             <li className="custom-footer-section-li">Home</li>
-                            <li className="custom-footer-section-li">What We Do</li>
+                            <li className="custom-footer-section-li">Products</li>
                             <li className="custom-footer-section-li">Services</li>
                             <li className="custom-footer-section-li">Contact Us</li>
                         </ul>
@@ -21,9 +23,9 @@ class Footer extends React.Component {
                         <h3 className="custom-footer-section-header">Visit Us</h3>
 
                         <ul className="custom-footer-section-ul">
-                            <li className="custom-footer-section-li">46,thandavan Street, Purasawalkam</li>
-                            <li className="custom-footer-section-li">Chennai, Tamil Nadu, 600007.</li>
-                            <li className="custom-footer-section-li">04426428312</li>
+                            <li className="custom-footer-section-li"><MdLocationPin color="#fff" />&nbsp;&nbsp;Mahaa Technology and business solutions SPC, Muscat , Sultanate of Oman.</li>
+                            <li className="custom-footer-section-li"><BsTelephoneInboundFill color="#fff"/>&nbsp;&nbsp;+96871682777</li>
+                            <li className="custom-footer-section-li"><MdEmail color="#fff"/>&nbsp;&nbsp;mahaa.oman@mibts.com</li>
                         </ul>
                     </div>
                 </div>
@@ -31,7 +33,7 @@ class Footer extends React.Component {
                 <hr className="custom-footer-divider" />
 
                 <h3 className="custom-footer-copyrights">
-                    COPYRIGHTS © COMPANY NAME. 2021.ALL RIGHTS RESERVED.
+                    {`COPYRIGHTS © Mahaa Technology & Business Solutions. ${new Date().getFullYear()}.ALL RIGHTS RESERVED.`}
                 </h3>
             </div>
         )
