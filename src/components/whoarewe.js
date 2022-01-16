@@ -5,7 +5,7 @@ class WhoareWe extends React.Component {
 
     render() {
         return (
-            <div className="whoarewe-container">
+            <div className="whoarewe-container" id={this.props.id}>
                 <p className="whoarewe-header-text">
                     Who Are We ?
                 </p>

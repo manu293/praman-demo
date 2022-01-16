@@ -8,7 +8,7 @@ class ContactUs extends React.PureComponent {
 
     render() {
         return (
-            <div className="whoarewe-container">
+            <div className="whoarewe-container" id={this.props.id}>
                 <p className="whoarewe-header-text">
                     Contact Us
                 </p>
@@ -43,8 +43,9 @@ class ContactUs extends React.PureComponent {
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.8132184682822!2d58.38142341497815!3d23.575150884676003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x110e863c9b334592!2zMjPCsDM0JzMwLjUiTiA1OMKwMjMnMDEuMCJF!5e0!3m2!1sen!2sin!4v1642317637430!5m2!1sen!2sin"
                             height="250"
                             style={{border: 0, width: "100%"}}
-                            allowfullscreen=""
+                            allowFullScreen=""
                             loading="lazy"
+                            title="google map address"
                         />
                     </Col>
                 </Row>

@@ -1,5 +1,6 @@
 // imports
 import React from "react";
+import ScrollSpy from "react-ui-scrollspy";
 
 // local imports
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -17,11 +18,15 @@ class App extends React.Component {
         return (
             <>
                 <Header />
-                <CustomCarousel />
-                <WhoareWe />
-                <Products />
-                <Services />
-                <ContactUs />
+                <CustomCarousel/>
+        
+                <ScrollSpy>
+                    <WhoareWe id="home" />
+                    <Products id="products" />
+                    <Services id="services" />
+                    <ContactUs id="contactUs" />
+                </ScrollSpy>
+               
                 <Footer />
             </>
         )

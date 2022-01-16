@@ -2,7 +2,6 @@
 import React from "react";
 import {BsTelephoneInboundFill} from "react-icons/bs";
 import {MdEmail, MdLocationPin} from "react-icons/md";
-import {Row, Col} from "react-bootstrap";
 
 class Footer extends React.Component {
 
@@ -23,12 +22,6 @@ class Footer extends React.Component {
                     </div>
                     <div className="custom-footer-section">
                         <h3 className="custom-footer-section-header">Visit Us</h3>
-
-                        {/* <ul className="custom-footer-section-ul">
-                            <li className="custom-footer-section-li"><MdLocationPin color="#fff" />&nbsp;&nbsp;Mahaa Technology and business solutions SPC, Muscat , Sultanate of Oman.</li>
-                            <li className="custom-footer-section-li"><BsTelephoneInboundFill color="#fff"/>&nbsp;&nbsp;+96871682777</li>
-                            <li className="custom-footer-section-li"><MdEmail color="#fff"/>&nbsp;&nbsp;mahaa.oman@mibts.com</li>
-                        </ul> */}
 
                         <ul className="contactUsSection">
                             <li className="contactUsListItem">
