@@ -107,6 +107,15 @@
     color: black;
     font-size: 16px;
     letter-spacing: 0.2px;
+    text-align: justify;
+}
+
+.accordion-body {
+    text-align: justify;
+}
+
+.card-text {
+    text-align: justify;
 }
 
 .custom-footer-container {
@@ -175,6 +184,7 @@
 
 .contactUsListItemContent {
     width: 92%;
+    text-align: justify;
 }
 
 .footerListItemContent {
