@@ -2,6 +2,7 @@
 import React from "react";
 import {BsTelephoneInboundFill} from "react-icons/bs";
 import {MdEmail, MdLocationPin} from "react-icons/md";
+import {Row, Col} from "react-bootstrap";
 
 class Footer extends React.Component {
 
@@ -9,6 +10,7 @@ class Footer extends React.Component {
         return (
             <div className="custom-footer-container">
                 <div className="custom-footer-section-container">
+                
                     <div className="custom-footer-section">
                         <h3 className="custom-footer-section-header">Quick Links</h3>
 
@@ -22,10 +24,31 @@ class Footer extends React.Component {
                     <div className="custom-footer-section">
                         <h3 className="custom-footer-section-header">Visit Us</h3>
 
-                        <ul className="custom-footer-section-ul">
+                        {/* <ul className="custom-footer-section-ul">
                             <li className="custom-footer-section-li"><MdLocationPin color="#fff" />&nbsp;&nbsp;Mahaa Technology and business solutions SPC, Muscat , Sultanate of Oman.</li>
                             <li className="custom-footer-section-li"><BsTelephoneInboundFill color="#fff"/>&nbsp;&nbsp;+96871682777</li>
                             <li className="custom-footer-section-li"><MdEmail color="#fff"/>&nbsp;&nbsp;mahaa.oman@mibts.com</li>
+                        </ul> */}
+
+                        <ul className="contactUsSection">
+                            <li className="contactUsListItem">
+                                <div className="contactUsListItemIcon">
+                                    <MdLocationPin size={22} color="#fff" />
+                                </div>&nbsp;&nbsp;
+                                <p className="footerListItemContent">Mahaa Technology and business solutions SPC, Sultanate of Oman.</p>
+                            </li>
+                            <li className="contactUsListItem">
+                                <div className="contactUsListItemIcon">
+                                    <BsTelephoneInboundFill size={22} color="#fff" />
+                                </div>&nbsp;&nbsp;
+                                <p className="footerListItemContent">+96871682777</p>
+                            </li>
+                            <li className="contactUsListItem">
+                                <div className="contactUsListItemIcon">
+                                    <MdEmail size={22} color="#fff" />
+                                </div>&nbsp;&nbsp;
+                                <p className="footerListItemContent"><a className="contactUsLink" href="mailto: mahaa.oman@mibts.com">mahaa.oman@mibts.com</a></p>
+                            </li>
                         </ul>
                     </div>
                 </div>

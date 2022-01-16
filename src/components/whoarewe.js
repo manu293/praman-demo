@@ -5,13 +5,7 @@ class WhoareWe extends React.Component {
 
     render() {
         return (
-            <div
-                className="whoarewe-container"
-                data-bs-spy="scroll"
-                data-bs-target="#homeSection"
-                data-bs-offset="0"
-                tabindex="0"
-            >
+            <div className="whoarewe-container">
                 <p className="whoarewe-header-text">
                     Who Are We ?
                 </p>

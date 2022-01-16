@@ -13,6 +13,10 @@
     align-items: center;
 }
 
+.customBootstrapNavbar {
+    background-image: url(./images/navbarBackgound.jpg);
+}
+
 .custom-navbar-container {
     display: flex;
     flex-wrap: inherit;
@@ -97,7 +101,6 @@
 }
 
 .whoarewe-content {
-    margin-left: 1rem;
     color: black;
     font-size: 16px;
     letter-spacing: 0.2px;
@@ -150,7 +153,7 @@
 
 .contactUsSection {
     list-style: none;
-    font-size: 20px;
+    width: 100%;
 }
 
 .contactUsSectionContainer {
@@ -158,9 +161,22 @@
     display: flex;
 }
 
-.contactUsSectionSubContainer {
-    width: 50%;
-    margin: 30px 10px;
+.contactUsListItem {
+    width: 100%;
+    display: flex;
+}
+
+.contactUsListItemIcon {
+    width: 8%;
+}
+
+.contactUsListItemContent {
+    width: 92%;
+}
+
+.footerListItemContent {
+    width: 92%;
+    color: #fff;
 }
 
 .contactUsLink,
@@ -173,4 +189,63 @@
 
 .contactUsAddress {
     padding-left: 34px;
+}
+
+.customContactUsSection {
+    display: flex;
+}
+
+.mobileIcon {
+    display: none;
+}
+
+.serviceCard {
+    height: 265px;
+}
+
+/* mobile style */
+
+@media (max-width: 576px) {
+    .customContactUsSection {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .custom-navbar-content-container-ul {
+        display: none;
+    }
+
+    .mobileIcon {
+        display: flex;
+        width: 80%;
+        margin: 10px;
+        justify-content: flex-end;
+    }
+
+    .mobileServiceColumn {
+        margin-bottom: 10px;
+    }
+
+    .serviceCard {
+        height: 280px;
+    }
+
+    .contactUsSection {
+        padding: 0;
+    }
+
+    .custom-footer-section-container {
+        flex-direction: column;
+    }
+
+    .custom-footer-section {
+        width: 100%;
+    }
+
+    .custom-footer-section-ul {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        justify-content: space-between;
+    }
 }

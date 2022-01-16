@@ -22,6 +22,7 @@ class CustomCarousel extends React.Component {
         return (
             <Carousel
                 fade={true}
+                interval={6000}
             >
                 <Carousel.Item>
                     <img

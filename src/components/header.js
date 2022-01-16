@@ -5,20 +5,11 @@ import {SiProducthunt} from "react-icons/si";
 import {IoCall} from "react-icons/io5";
 import { FaTools} from "react-icons/fa";
 import Logo from "../images/Logo.jpg";
+import {GiHamburgerMenu} from "react-icons/gi";
 
 class Header extends React.Component {
 
-    constructor(props) {
-        super(props);
-
-        this.state = {
-            showDropdown: false,
-        }
-    }
-
     render() {
-
-        const { showDropdown } = this.state;
 
         return (
             <>
@@ -30,54 +21,32 @@ class Header extends React.Component {
                         <ul className="custom-navbar-content-container-ul">
                             <li
                                 className="custom-navbar-content-container-li custom-navbar-active"
-                                onMouseEnter={() => this.setState({showDropdown: false})}
                             >
-                                <a href="#homeSection">
-                                    <AiFillHome />&nbsp;Home
-                                </a>
+                                <AiFillHome />&nbsp;Home
                             </li>
                             <li
                                 className="custom-navbar-content-container-li"
-                                onMouseEnter={() => this.setState({showDropdown: false})}
                             >
                                 <SiProducthunt />&nbsp;Products
                             </li>
                             <li
                                 className="custom-navbar-content-container-li"
-                                onMouseEnter={() => this.setState({showDropdown: true})}
                             >
                                 <FaTools />&nbsp;Services
                             </li>
                             <li
                                 className="custom-navbar-content-container-li"
-                                onMouseEnter={() => this.setState({showDropdown: false})}
                             >
                                 <IoCall />&nbsp;Contact Us
                             </li>
                         </ul>
+
+                        <div className="mobileIcon">
+                            <GiHamburgerMenu size={25} />
+                        </div>
+
                     </div>
                 </nav>
-                {
-                    (showDropdown === true) &&
-                    (
-                        <div
-                            className="custom-services-dropdown-container"
-                            onMouseLeave={() => this.setState({showDropdown: false})}
-                        >
-                            <ul className="custom-services-dropdown-container-ul">
-                                <li className="custom-services-dropdown-container-li">
-                                    Service 1
-                                </li>
-                                <li className="custom-services-dropdown-container-li">
-                                    Service 2
-                                </li>
-                                <li className="custom-services-dropdown-container-li">
-                                    Service 3
-                                </li>
-                            </ul>
-                        </div>
-                    )
-                }
             </>
         )
     }
