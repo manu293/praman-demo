@@ -1,31 +1,32 @@
 {
   "files": {
-    "main.css": "/praman-demo/static/css/main.4e8038d0.chunk.css",
-    "main.js": "/praman-demo/static/js/main.567178f9.chunk.js",
-    "main.js.map": "/praman-demo/static/js/main.567178f9.chunk.js.map",
+    "main.css": "/praman-demo/static/css/main.aae3e236.chunk.css",
+    "main.js": "/praman-demo/static/js/main.f8451556.chunk.js",
+    "main.js.map": "/praman-demo/static/js/main.f8451556.chunk.js.map",
     "runtime-main.js": "/praman-demo/static/js/runtime-main.226f5864.js",
     "runtime-main.js.map": "/praman-demo/static/js/runtime-main.226f5864.js.map",
     "static/css/2.383c0125.chunk.css": "/praman-demo/static/css/2.383c0125.chunk.css",
-    "static/js/2.59bbbfdf.chunk.js": "/praman-demo/static/js/2.59bbbfdf.chunk.js",
-    "static/js/2.59bbbfdf.chunk.js.map": "/praman-demo/static/js/2.59bbbfdf.chunk.js.map",
+    "static/js/2.646002ed.chunk.js": "/praman-demo/static/js/2.646002ed.chunk.js",
+    "static/js/2.646002ed.chunk.js.map": "/praman-demo/static/js/2.646002ed.chunk.js.map",
     "index.html": "/praman-demo/index.html",
     "static/css/2.383c0125.chunk.css.map": "/praman-demo/static/css/2.383c0125.chunk.css.map",
-    "static/css/main.4e8038d0.chunk.css.map": "/praman-demo/static/css/main.4e8038d0.chunk.css.map",
-    "static/js/2.59bbbfdf.chunk.js.LICENSE.txt": "/praman-demo/static/js/2.59bbbfdf.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/praman-demo/static/media/navbarBackgound.4ecffc15.jpg",
+    "static/css/main.aae3e236.chunk.css.map": "/praman-demo/static/css/main.aae3e236.chunk.css.map",
+    "static/js/2.646002ed.chunk.js.LICENSE.txt": "/praman-demo/static/js/2.646002ed.chunk.js.LICENSE.txt",
+    "static/media/mobileLogo.f736b1c4.jpg": "/praman-demo/static/media/mobileLogo.f736b1c4.jpg",
+    "static/media/index.css": "/praman-demo/static/media/navbarBackgound.6367a4d6.jpg",
     "static/media/newService1.44691a0e.jpg": "/praman-demo/static/media/newService1.44691a0e.jpg",
     "static/media/newService2.a055bc21.jpg": "/praman-demo/static/media/newService2.a055bc21.jpg",
     "static/media/newService3.7f56490a.jpg": "/praman-demo/static/media/newService3.7f56490a.jpg",
     "static/media/newService4.e606c1df.jpg": "/praman-demo/static/media/newService4.e606c1df.jpg",
-    "static/media/service1.b4814efd.jpg": "/praman-demo/static/media/service1.b4814efd.jpg",
-    "static/media/service2.93a3dad2.jpg": "/praman-demo/static/media/service2.93a3dad2.jpg",
-    "static/media/service3.8e76e9db.jpg": "/praman-demo/static/media/service3.8e76e9db.jpg"
+    "static/media/service1.55d043bc.jpg": "/praman-demo/static/media/service1.55d043bc.jpg",
+    "static/media/service2.3c664282.jpg": "/praman-demo/static/media/service2.3c664282.jpg",
+    "static/media/service3.e0b29372.jpg": "/praman-demo/static/media/service3.e0b29372.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.226f5864.js",
     "static/css/2.383c0125.chunk.css",
-    "static/js/2.59bbbfdf.chunk.js",
-    "static/css/main.4e8038d0.chunk.css",
-    "static/js/main.567178f9.chunk.js"
+    "static/js/2.646002ed.chunk.js",
+    "static/css/main.aae3e236.chunk.css",
+    "static/js/main.f8451556.chunk.js"
   ]
 }
