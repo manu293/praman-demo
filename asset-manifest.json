@@ -1,18 +1,22 @@
 {
   "files": {
-    "main.css": "/praman-demo/static/css/main.0e2741c2.chunk.css",
-    "main.js": "/praman-demo/static/js/main.6ae6c869.chunk.js",
-    "main.js.map": "/praman-demo/static/js/main.6ae6c869.chunk.js.map",
+    "main.css": "/praman-demo/static/css/main.4e8038d0.chunk.css",
+    "main.js": "/praman-demo/static/js/main.4f044186.chunk.js",
+    "main.js.map": "/praman-demo/static/js/main.4f044186.chunk.js.map",
     "runtime-main.js": "/praman-demo/static/js/runtime-main.226f5864.js",
     "runtime-main.js.map": "/praman-demo/static/js/runtime-main.226f5864.js.map",
     "static/css/2.383c0125.chunk.css": "/praman-demo/static/css/2.383c0125.chunk.css",
-    "static/js/2.d2511a1a.chunk.js": "/praman-demo/static/js/2.d2511a1a.chunk.js",
-    "static/js/2.d2511a1a.chunk.js.map": "/praman-demo/static/js/2.d2511a1a.chunk.js.map",
+    "static/js/2.a60989aa.chunk.js": "/praman-demo/static/js/2.a60989aa.chunk.js",
+    "static/js/2.a60989aa.chunk.js.map": "/praman-demo/static/js/2.a60989aa.chunk.js.map",
     "index.html": "/praman-demo/index.html",
     "static/css/2.383c0125.chunk.css.map": "/praman-demo/static/css/2.383c0125.chunk.css.map",
-    "static/css/main.0e2741c2.chunk.css.map": "/praman-demo/static/css/main.0e2741c2.chunk.css.map",
-    "static/js/2.d2511a1a.chunk.js.LICENSE.txt": "/praman-demo/static/js/2.d2511a1a.chunk.js.LICENSE.txt",
+    "static/css/main.4e8038d0.chunk.css.map": "/praman-demo/static/css/main.4e8038d0.chunk.css.map",
+    "static/js/2.a60989aa.chunk.js.LICENSE.txt": "/praman-demo/static/js/2.a60989aa.chunk.js.LICENSE.txt",
     "static/media/index.css": "/praman-demo/static/media/navbarBackgound.4ecffc15.jpg",
+    "static/media/newService1.44691a0e.jpg": "/praman-demo/static/media/newService1.44691a0e.jpg",
+    "static/media/newService2.a055bc21.jpg": "/praman-demo/static/media/newService2.a055bc21.jpg",
+    "static/media/newService3.7f56490a.jpg": "/praman-demo/static/media/newService3.7f56490a.jpg",
+    "static/media/newService4.e606c1df.jpg": "/praman-demo/static/media/newService4.e606c1df.jpg",
     "static/media/service1.b4814efd.jpg": "/praman-demo/static/media/service1.b4814efd.jpg",
     "static/media/service2.93a3dad2.jpg": "/praman-demo/static/media/service2.93a3dad2.jpg",
     "static/media/service3.8e76e9db.jpg": "/praman-demo/static/media/service3.8e76e9db.jpg"
@@ -20,8 +24,8 @@
   "entrypoints": [
     "static/js/runtime-main.226f5864.js",
     "static/css/2.383c0125.chunk.css",
-    "static/js/2.d2511a1a.chunk.js",
-    "static/css/main.0e2741c2.chunk.css",
-    "static/js/main.6ae6c869.chunk.js"
+    "static/js/2.a60989aa.chunk.js",
+    "static/css/main.4e8038d0.chunk.css",
+    "static/js/main.4f044186.chunk.js"
   ]
 }
