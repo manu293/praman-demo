@@ -28,7 +28,7 @@ class Footer extends React.Component {
                                 <div className="contactUsListItemIcon">
                                     <MdLocationPin size={22} color="#fff" />
                                 </div>&nbsp;&nbsp;
-                                <p className="footerListItemContent">Mahaa Technology and business solutions SPC, Sultanate of Oman.</p>
+                                <p className="footerListItemContent">Mahaa Technology & Business Solutions SPC, Sultanate of Oman.</p>
                             </li>
                             <li className="contactUsListItem">
                                 <div className="contactUsListItemIcon">

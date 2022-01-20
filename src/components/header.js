@@ -116,7 +116,8 @@ class Header extends React.Component {
                             <nav className="custom-navbar">
                                 <div className="custom-navbar-container">
                                     <div className="custom-navbar-icon-container">
-                                        <img src={Logo} alt={"Logo"} className="custom-navbar-icon" />
+                                        {/* <img src={Logo} alt={"Logo"} className="custom-navbar-icon" /> */}
+                                        <p className="custom-navbar-logoText">Mahaa Technology & <br/> Business Solutions SPC</p>
                                     </div>
                                     <ul className="custom-navbar-content-container-ul">
                                         <a className="contactUsLink" onClick={(e) => this.onPress(e)} href={"#home"}>

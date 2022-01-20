@@ -29,13 +29,21 @@
 }
 
 .custom-navbar-icon-container {
-    width: 20%;
+    width: 25%;
     margin: 0.5rem 1rem;
 }
 
 .custom-navbar-icon {
     width: 35px;
     border-radius: 4px;
+}
+
+.custom-navbar-logoText{
+    margin: 0;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    letter-spacing: 0.5px;
 }
 
 .custom-navbar-logo-text  {

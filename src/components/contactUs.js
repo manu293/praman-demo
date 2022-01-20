@@ -21,7 +21,7 @@ class ContactUs extends React.PureComponent {
                                 <div className="contactUsListItemIcon">
                                     <MdLocationPin size={22} color="#000" />
                                 </div>&nbsp;&nbsp;
-                                <p className="contactUsListItemContent">Mahaa Technology and business solutions SPC, Shop No -4, Building Number 173. Way number 54, Darvesh Building, Near Royal Hospital , Ghala Muscat , Sultanate of Oman.</p>
+                                <p className="contactUsListItemContent">Mahaa Technology & Business Solutions SPC, Shop No -4, Building Number 173. Way number 54, Darvesh Building, Near Royal Hospital , Ghala Muscat , Sultanate of Oman.</p>
                             </li>
                             <li className="contactUsListItem">
                                 <div className="contactUsListItemIcon">
