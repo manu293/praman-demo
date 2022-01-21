@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/praman-demo/static/css/main.eb7adb37.chunk.css",
-    "main.js": "/praman-demo/static/js/main.1d2f6eb7.chunk.js",
-    "main.js.map": "/praman-demo/static/js/main.1d2f6eb7.chunk.js.map",
+    "main.js": "/praman-demo/static/js/main.fd08e8fc.chunk.js",
+    "main.js.map": "/praman-demo/static/js/main.fd08e8fc.chunk.js.map",
     "runtime-main.js": "/praman-demo/static/js/runtime-main.226f5864.js",
     "runtime-main.js.map": "/praman-demo/static/js/runtime-main.226f5864.js.map",
     "static/css/2.383c0125.chunk.css": "/praman-demo/static/css/2.383c0125.chunk.css",
@@ -27,6 +27,6 @@
     "static/css/2.383c0125.chunk.css",
     "static/js/2.646002ed.chunk.js",
     "static/css/main.eb7adb37.chunk.css",
-    "static/js/main.1d2f6eb7.chunk.js"
+    "static/js/main.fd08e8fc.chunk.js"
   ]
 }
